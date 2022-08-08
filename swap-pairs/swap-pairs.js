@@ -5,12 +5,13 @@ function swapPairs(arr) {
       arr[i] = arr[i + 1];
       arr[i + 1] = temp;
     }
-    return arr;
+    return arr.filter(Boolean);
   }
   return arr;
 }
 
 console.log(swapPairs([1, 2, 3, 4]));
+console.log(swapPairs([1, 2, 3]));
 console.log(swapPairs([]));
 console.log(swapPairs([1, 5]));
 console.log(swapPairs([3]));
