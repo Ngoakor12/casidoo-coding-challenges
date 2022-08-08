@@ -1,1 +1,1 @@
-# casidoo-coding-challenges
+# cassidoo-coding-challenges
